@@ -50,12 +50,13 @@ function Navbar(props) {
                 </div>
               </div>
             )}
-
-            {!auth.user && (
-              <Link className="navbar-item" to="/signin">
-                Sign in
-              </Link>
-            )}
+            {/* 
+              {!auth.user && (
+                <Link className="navbar-item" to="/signin">
+                  Sign in
+                </Link>
+              )} 
+            */}
           </div>
         </div>
       </div>

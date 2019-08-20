@@ -5,6 +5,9 @@ import "./styles.scss";
 
 import wassuhlogo from "../../assets/logos/wassuh.png"
 
+import mvolzResume from '../../assets/docs/mvolzResume.pdf'
+
+
 function Footer(props) {
   return (
     <Section color={props.color} size={props.size}>
@@ -38,7 +41,10 @@ function Footer(props) {
                   <p className="menu-label">Work</p>
                   <ul className="menu-list">
                     <li>
-                      <Link to="/about">Resume</Link>
+                      <Link to="/about">About</Link>
+                    </li>
+                    <li>
+                      <a href={mvolzResume}>Resume<sup>PDF</sup></a>
                     </li>
                     <li>
                       <Link to="/contact">Contact</Link>
@@ -74,7 +80,7 @@ function Footer(props) {
                     </li>
                     <li>
                       <a
-                        href="https://instagram.com"
+                        href="https://www.linkedin.com/in/maxwellvolz"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -82,7 +88,7 @@ function Footer(props) {
                           src="https://uploads.divjoy.com/icon-instagram.svg"
                           alt="Instagram"
                         />
-                        Instagram
+                        LinkedIn
                       </a>
                     </li>
                     <li>

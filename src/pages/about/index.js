@@ -6,6 +6,7 @@ import CtaSection from "./../../components/CtaSection";
 import { useRouter } from "./../../util/router.js";
 import "./styles.scss";
 
+
 function AboutPage(props) {
   const router = useRouter();
 

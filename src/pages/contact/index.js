@@ -7,7 +7,7 @@ function ContactPage(props) {
     <ContactSection
       color="white"
       size="medium"
-      title="Contact Us"
+      title="Contact Max"
       subtitle=""
       showNameField={true}
       buttonText="Send message"
