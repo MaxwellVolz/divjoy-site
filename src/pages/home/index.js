@@ -20,7 +20,7 @@ function HomePage(props) {
         subtitle="Designs, Develops, Delivers"
         buttonText="Contact Me"
         buttonOnClick={() => {
-          router.push("/pricing");
+          router.push("/contact");
         }}
       />
       <FeaturesSection
@@ -48,7 +48,7 @@ function HomePage(props) {
         subtitle=""
         buttonText="Contact Me"
         buttonOnClick={() => {
-          router.push("/pricing");
+          router.push("/contact");
         }}
       />
     </>
