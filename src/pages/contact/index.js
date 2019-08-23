@@ -7,10 +7,10 @@ function ContactPage(props) {
     <ContactSection
       color="white"
       size="medium"
-      title="Contact Max"
+      title="Coming soon! Please contact me via email or LinkedIn in the meantime."
       subtitle=""
       showNameField={true}
-      buttonText="Send message"
+      buttonText="Coming Soon"
     />
   );
 }

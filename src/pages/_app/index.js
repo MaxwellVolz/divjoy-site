@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "./../../components/Navbar";
 import HomePage from "./../home";
 import AboutPage from "./../about";
-import ResumePage from "./../resume";
 import FaqPage from "./../faq";
 import PricingPage from "./../pricing";
 import ContactPage from "./../contact";
@@ -38,7 +37,6 @@ function App(props) {
 
             <Route exact path="/about" component={AboutPage} />
 
-            {/* <Route exact path="/resume" component={ResumePage} /> */}
 
             <Route exact path="/faq" component={FaqPage} />
 

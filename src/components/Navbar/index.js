@@ -17,16 +17,16 @@ function Navbar(props) {
               <img className="image" src={props.logo} alt="Logo" />
             </Link>
           </div>
-          <div
+          {/* <div
             className={"navbar-burger burger" + (menuOpen ? " is-active" : "")}
             onClick={() => setMenuOpen(!menuOpen)}
           >
             <span />
             <span />
             <span />
-          </div>
+          </div> */}
         </div>
-        <div className={"navbar-menu" + (menuOpen ? " is-active" : "")}>
+        {/* <div className={"navbar-menu" + (menuOpen ? " is-active" : "")}>
           <div className="navbar-end">
             {auth.user && (
               <div className="navbar-item has-dropdown is-hoverable">
@@ -50,15 +50,15 @@ function Navbar(props) {
                 </div>
               </div>
             )}
-            {/* 
+            
               {!auth.user && (
                 <Link className="navbar-item" to="/signin">
                   Sign in
                 </Link>
               )} 
-            */}
+           
           </div>
-        </div>
+        </div> */}
       </div>
     </NavbarContainer>
   );

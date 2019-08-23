@@ -41,12 +41,14 @@ function Footer(props) {
                   <p className="menu-label">Work</p>
                   <ul className="menu-list">
                     <li>
-                      <Link to="/about">About</Link>
+                      <Link to="#">About<sup>Coming Soon</sup></Link>
+                      
                     </li>
                     <li>
                       <a href={mvolzResume}>Resume<sup>PDF</sup></a>
                     </li>
                     <li>
+                      {/* <Link to="#">Contact<sup>Coming Soon</sup></Link> */}
                       <Link to="/contact">Contact</Link>
                     </li>
                     {/* <li>
@@ -67,7 +69,7 @@ function Footer(props) {
                   <ul className="menu-list">
                     <li>
                       <a
-                        href="https://facebook.com"
+                        href="https://www.facebook.com/maxwellvolz"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
